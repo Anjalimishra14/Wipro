@@ -7,15 +7,16 @@ int main()
 
     scanf("%d",&n);
 
-    while(i <= n)
+    while(i < n)
     {
         int j = 0;
-        while(j <= i)
+        while(j < n)
         {
-            printf("*");
+            printf("* ");
             j++;
         }
         printf("\n");
         i++;
     }
+    return 0;
 }
