@@ -4,6 +4,7 @@
 int main()
 {
     int ch;
+BegPrg:
     system("clear");
     printf("\nEnter a value between(1-5): ");
     scanf("%d",&ch);
@@ -12,9 +13,11 @@ int main()
     {
         default:
             printf("\nEnter the values between 1-5 only");
+            
             break;
         case 1:
             printf("\n1 is pressed");
+            goto BegPrg;
             break;
         case 2:
             printf("\n2 is pressed");
@@ -32,5 +35,6 @@ int main()
         
     } //end of switch
     printf("\nProgram Ended\n\n");
+
     return 0;
 }
