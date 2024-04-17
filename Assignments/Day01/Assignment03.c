@@ -1,3 +1,10 @@
+/*Function Design and Modularization - Create a document that describes the
+design of two modular functions: one that returns the factorial of a number,
+and another that calculates the nth Fibonacci number. Include pseudocode and
+a brief explanation of how modularity in programming helps with code reuse
+and organization*/
+
+
 #include <stdio.h>
 
 int fact(int n) {

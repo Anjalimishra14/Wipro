@@ -1,3 +1,12 @@
+/*Write a program to print table of any number given by the user in the pattern 
+ex.:- 2 x 1 = 2 
+      2 x 2 = 4
+      :   :   :
+      :   :   :
+      :   :   :
+      :   :   :
+      2 x 10 = 20*/
+
 #include<stdio.h>
 
 int main()

@@ -1,3 +1,9 @@
+/*Flowchart Creation - Design a flowchart that outlines the logic for a user
+ login process. It should include conditional paths for successful and 
+ unsuccessful login attempts, and a loop that allows a user three attempts 
+ before locking the account.*/
+
+
 #include <stdio.h>
 #include <string.h>
 

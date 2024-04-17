@@ -1,3 +1,9 @@
+/*Recursive
+Function and Efficiency Analysis - Write a recursive function pseudocode and
+calculate the nth Fibonacci number and use Big O notation to analyze its
+efficiency. Compare this with an iterative approach and discuss the pros and
+cons in terms of space and time complexity.*/
+
 #include <stdio.h>
 
 int fibo(int n) 

@@ -1,3 +1,6 @@
+/*Write a program to scan an employee details like sno., name, ID, gender,
+ phone no., salary, address and print output in the table format*/
+
 #include <stdio.h>
 
 struct Employee {

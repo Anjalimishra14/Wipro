@@ -1,3 +1,8 @@
+/*Pseudocode and Flowchart for Sorting Algorithm - Write
+pseudocode and create a flowchart for a bubble sort algorithm. Provide a
+brief explanation of how the algorithm works and a simple array of integers
+to demonstrate a dry run of your algorithm.*/
+
 #include <stdio.h>
 
 int main() {
