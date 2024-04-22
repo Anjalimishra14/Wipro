@@ -30,20 +30,25 @@ int isinarray(int reminder)
 {
     int arr[] = {1, 4, 6, 9};
     int len = 4;
-    for(int i = 0; i<len; i++){
-            if(arr[i] == reminder){
+    for(int i = 0; i<len; i++)
+    {
+            if(arr[i] == reminder)
+            {
                 return 1;
             }
-        }
+    }
     return 0;
 }
 
-int ismadeofarr(int n){
+int ismadeofarr(int n)
+{
     int divder = n;
-    while(divder > 0){
+    while(divder > 0)
+    {
         int reminder = divder % 10;
         divder = divder /10;
-        if(isinarray(reminder) == 0){
+        if(isinarray(reminder) == 0)
+        {
             return 0;
         };
     }
@@ -58,9 +63,11 @@ int main()
     scanf("%d",&input);
     int i = 1;
     int counter = 1;
-    while(i <= input){
+    while(i <= input)
+    {
         int result  = ismadeofarr(counter);
-        if(ismadeofarr(counter) == 1){
+        if(ismadeofarr(counter) == 1)
+        {
             if(i==input) break;
             i++;
         }
